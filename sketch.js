@@ -20,7 +20,7 @@ function setup() {
 
   Engine.run(engine);
 
-  ground = new Base();
+  Ground = new Base();
   stand1 = new Ground(390, 300, 250, 10);
   stand2 = new Ground(700, 200, 200, 10);
 
